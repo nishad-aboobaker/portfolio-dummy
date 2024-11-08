@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.navbar-left>img{
+    height: 80px;
+    margin-left: 100px;
+}
+.navbar-right{
+    margin-right: 100px;
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar-right>a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+.navbar-right>a:hover{
+    color: red;
+    transition: 100ms;
+}
+.introduction>h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.intro{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+
+.intro>img{
+    height: 500px;
+    margin: 0px auto 0px auto;
+}
+
+.introcntnt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.introduction>a{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.introduction>a:hover{
+    background-color: rgb(129, 4, 246);
+    transition: 100ms;
+}
+.about>img{
+    height: 400px;
+    margin: 0px auto 0px auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid black; */
+    margin-top: 125px;
+}
+.abtcntnt>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: justify;
+}
+.abtcntnt>h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    /* margin-top: 100px; */
+}
